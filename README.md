@@ -20,4 +20,4 @@ Set Power and Act led turn off, and etc!
 ## Install
 Simply install as
 
-`wget https://github.com/TamaTamaGoGo/RPi-Tools/raw/install/install && sudo chmod +x install && ./install`
+`wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/install/install && sudo chmod +x install && ./install`
