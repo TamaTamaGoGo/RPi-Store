@@ -1,4 +1,6 @@
 #!/bin/bash
+# Thanks for https://www.greptips.com/posts/1265/
+# Thanks for https://r-h.hatenablog.com/entry/20110119/1295452747
 
 while IFS=, read softname discribe webpage thirtytwobit sixtyfourbit downloadsource
 do
