@@ -1,0 +1,6 @@
+format,discribe,Webpage,32bit,64bit,downloads source file
+apache2,The web server,https://httpd.apache.org/,TRUE,TRUE,apache2
+fonts-noto,No More Tofu Font,,TRUE,TRUE,fonts-noto
+wine,run .exe file,https://www.winehq.org/,TRUE,TRUE,wine-windows
+winetricks,Wine tools,https://github.com/Winetricks/winetricks,TRUE,TRUE,wine-tricks
+scratch3,Easy block programming,https://scratch.mit.edu,TRUE,TRUE,scratch3
