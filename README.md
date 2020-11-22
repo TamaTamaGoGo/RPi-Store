@@ -1,4 +1,4 @@
-# RPi-Tools
+# RPi-Tools  [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/badge/main)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/overview/main)
 ## Introduce
 Easy tools to recovery, update, install, setting, etc GUI app.
 ### Recovery
