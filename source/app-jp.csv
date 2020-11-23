@@ -2,7 +2,7 @@
 apache2,Webサーバー,Apache2 Web サーバー。.htaccessファイルを使用する事が出来ます。Certbotを使用することでSSLに対応させることができます。,https://httpd.apache.org/,TRUE,TRUE,apache2,apt
 fonts-noto,No More Tofu Font,もし豆腐文字が見えるようであったら、直ぐにこのフォントをインストールしてください！,,TRUE,TRUE,fonts-noto,apt
 wine,.exeファイルを実行,RaspberryPiで.exeファイルを実行できるようにします！,https://www.winehq.org/,TRUE,TRUE,wine,apt
-winetricks,Wineソフトウェアのツール,このツールはWineへのツールで、フォントやアプリケーションをインストールすることができます。RPi-Toolでは、aptのリポジトリが古い為、オープンソースからインストールします。,https://github.com/Winetricks/winetricks,TRUE,TRUE,wine-tricks,basj
+winetricks,Wineソフトウェアのツール,このツールはWineへのツールで、フォントやアプリケーションをインストールすることができます。RPi-Toolでは、aptのリポジトリが古い為、オープンソースからインストールします。,https://github.com/Winetricks/winetricks,TRUE,TRUE,wine-tricks,bash
 scratch3,簡単なブロックプログラミング,MITによって作られました.ブロックで簡単にプログラムを作る事が出来ますが、凄いプログラムまで作る事が出来ます！!,https://scratch.mit.edu,TRUE,TRUE,scratch3,apt
 certbot,分でWebをSSL対応させるツール,Apache2にも対応。３か月のSSLですが、いつでも作り直す事が出来ます！,,TRUE,TRUE,certbot,apt
 php-7.3,PHPに対応させるツール,もしあなたがWebサーバーをインストールしたならば、必ずこのツールをいれてください！,,TRUE,TRUE,php-7.3,apt
