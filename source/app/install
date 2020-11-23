@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ $LANG == ja_JP.UTF-8 ]; then
+    viewlang=jp
+else
+    viewlang=en
+fi
+
 echo -e -n "\r\033[1;37mUpdating ... Updating ... \033[0;39m"
 sudo apt update &>/dev/null
 echo -e -n "\r\033[1;37mUpdating ... Upgrading ... \033[0;39m"
