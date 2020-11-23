@@ -1,6 +1,12 @@
 #!/bin/bash
 
-while IFS=, read -r softname describe detail webpage thirtytwobit sixtyfourbit downloadsource
+while IFS=, read -r softname describe detail webpage thirtytwobit sixtyfourbit downloadsource installmethod
 do
-  echo -e "\033[1;36m$softname\033[0;39m - \033[1;37m$discribe\033[0;39m $detail \033[4;37m$webpage\033[0;39m 32bit->\033[1;37m$thirtytwobit\033[0;39m 64bit->\033[1;37m$sixtyfourbit\033[0;39m \033[4;37m$downloadsource\033[0;39m"
+  if [ $2 == view ]; then
+      echo -e "\033[1;36m$softname\033[0;39m - \033[1;37m$discribe\033[0;39m $detail \033[4;37m$webpage\033[0;39m 32bit->\033[1;37m$thirtytwobit\033[0;39m 64bit->\033[1;37m$sixtyfourbit\033[0;39m \033[4;37m$downloadsource\033[0;39m"
+  elif [ $2 == get ]; then
+      if [ $3 == $softname ]; then
+          echo $4
+      fi
+  fi
 done < $1
