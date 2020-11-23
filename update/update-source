@@ -1,6 +1,7 @@
 #!/bin/bash
 
+rm -rf source
+mkdir source
 cd source
-yes | rm ./*
 wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/apps/sourcelist-en.csv
 wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/apps/sourcelist-jp.csv
