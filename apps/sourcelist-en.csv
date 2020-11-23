@@ -6,3 +6,6 @@ winetricks,Wine tools,This tools is so helpful for wine,https://github.com/Winet
 scratch3,Easy block programming,Made by MIT.Easy-To-Program but can make great programs!,https://scratch.mit.edu,TRUE,TRUE,scratch3
 certbot,minute to SSL your web,For apache2 and etc.3 months ssl but you can regenerate anytime!,,TRUE,TRUE,certbot
 php-7.3,Tool to use PHP,You must install if you install web server client!,,TRUE,TRUE,php-7.3
+fcitx-mozc,Type Japanese,If you are Japanese You must install this software to type Japanese!,,TRUE,TRUE,fcitx-mozc
+scratch,First version of block programming software,If you want to use sensor at Scratch try this version!,,TRUE,TRUE,scratch
+scratch2mcpi,Make program on Scratch and run it on Minecraft Pi!,Minecraft Graphics Turtle to make great building with program!,https://scratch2mcpi.github.io,TRUE,FALSE,scratch2mcpi
