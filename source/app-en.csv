@@ -10,7 +10,7 @@ fcitx-mozc,Type Japanese,If you are Japanese You must install this software to t
 scratch,First version of block programming software,If you want to use sensor at Scratch try this version!,,TRUE,TRUE,scratch
 scratch2mcpi,Make program on Scratch and run it on Minecraft Pi!,Minecraft Graphics Turtle to make great building with program!,https://scratch2mcpi.github.io,TRUE,FALSE,scratch2mcpi
 rpi-imager,Official Image Flasher,Its similar to BanelaEtcher but you can use on RaspberryPi too!,https://raspberrypi.org/,TRUE,TRUE,rpi-imager
-squashfs,tool,Easy to compress with many way!,You can compress with gzip lzma lzo lz4 xz zstd. You can set algorithm too,,TRUE,TRUE,squashfs-tools
+squashfs-tools,Easy to compress with many way!,You can compress with gzip lzma lzo lz4 xz zstd. You can set algorithm too,,TRUE,TRUE,squashfs-tools
 miniupnpc,Open your web port with ONE command!,(upnpc -a [your ip] [openport] [openport] [tcp/ucp]) to open your select port!,,TRUE,TRUE,miniupnpc
 java,The most famous language,We serve the recommend version. Run as (java -jar [your jar file]).,https://www.oracle.com/,TRUE,TRUE,java-recommend
 Minecraft Spigot Server,The famous Minecraft server,Spigot can use Spigot plugin!. You can play Minecraft with multi.,https://spigotmc.org,TRUE,TRUE,minecraft-spigot-server
