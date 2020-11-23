@@ -14,5 +14,4 @@ wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-en
 echo -e -n "\r\033[1;37mDownloading source file ... Downloading JAPANESE ... \033[0;39m"
 wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-jp.csv &>/dev/null
 echo -e "\r\033[1;37mDownloading source file ... \033[0;39m\033[1;32mDone\033[0;39m                      "
-echo -e "\033[7;32mDone\033[0;39m"
-
+echo -e "\r\033[1;37mSource Update ... \033[0;39m\033[1;32mDone\033[0;39m"
