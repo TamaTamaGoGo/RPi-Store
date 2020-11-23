@@ -3,5 +3,5 @@
 rm -rf source
 mkdir source
 cd source
-wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/apps/sourcelist-en.csv
-wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/apps/sourcelist-jp.csv
+wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-en.csv
+wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-jp.csv
