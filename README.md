@@ -15,7 +15,7 @@ Install application with apt, git, pip and etc!
  Automatically add repository (manually too)
  
  To see all, run this command
- ``./READCSV app/sourcelist.csv view``
+ ``sudo chmod +x READCSV && ./READCSV source/app-en.csv``
 
 ### Setting
 Set Power and Act led turn off, and etc! 
