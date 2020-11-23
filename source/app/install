@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -e -n "\r\033[1;37mUpdating ... Updating ... \033[0;39m"
+sudo apt update &>/dev/null
+echo -e -n "\r\033[1;37mUpdating ... Upgrading ... \033[0;39m"
+sudo apt upgrade -y &>/dev/null
+echo -e "\r\033[1;37mUpdating ... \033[0;39m\033[1;32mDone\033[0;39m                  "
+echo -e -n "\033[1;37mInstalling $1 ... \033[0;39m"
+packagetype=$(./READCSV source/app-${viewlang}.csv get $1 packagetype)
+if [ $packagetype == apt ]; then
+    packagename=$(./READCSV source/app-${viewlang}.csv get $1 package)
+fi
