@@ -9,3 +9,11 @@ php-7.3,PHPに対応させるツール,もしあなたがWebサーバーをイ�
 fcitx-mozc,日本語入力メゾット,もしあなたが日本人であるなら、日本語を入力するにはこのメゾットをインストールしてください,,TRUE,TRUE,fcitx-mozc
 scratch,ブロックプログラミングScratchの中の最初のバージョン,もしあなたが遠隔センサーをScratchで使用したいなら、このバージョンを使用してください。,,TRUE,TRUE,scratch
 scratch2mcpi,Scratchでプログラムし、Minecraft Piでプログラムを実行！,Minecraft Graphics Turtle はプログラムで凄い建物まで作れます！,https://scratch2mcpi.github.io,TRUE,FALSE,scratch2mcpi
+rpi-imager,Official Image Flasher,Its similar to BanelaEtcher but you can use on RaspberryPi too!,https://raspberrypi.org/,TRUE,TRUE,rpi-imager
+squashfs-tools,たくさんの方法でファイルを圧縮することができます!,gzip、lzma、lzo、lz4、xz、zstdの方法で圧縮することができます。　圧縮のアルゴリズムを設定することもできます。,,TRUE,TRUE,squashfs-tools
+miniupnpc,たった１つのコマンドでポート開放を!,(upnpc -a [開放したいipアドレス] [開放したいポート] [開放したいポート] [tcp/ucp]) のコマンドを実行することでポート開放できます!,,TRUE,TRUE,miniupnpc
+java,最も有名なプログラミング言語,私達は推奨するJavaのバージョンをインストールします。(java -jar [your jar file])を実行することで、Javaファイルを実行することができます。,https://www.oracle.com/,TRUE,TRUE,java-recommend
+Minecraft Spigot Server,有名なMinecraftマルチサーバー,SpigotはSpigotのプラグインを使用することができます！ あなたは友達とサーバーを使用してマルチプレイができます。,https://spigotmc.org,TRUE,TRUE,minecraft-spigot-server
+firefox-esr,軽量ウェブブラウザー,あなたのアカウントで同期することができます！,https://www.mozilla.org/,TRUE,TRUE,firefox-esr
+epiphany-browser,最も軽いウェブブラウザー,Midori程軽量なブラウザーです。 あなたは通常のブラウザーのスピードを忘れるでしょう。,,TRUE,TRUE,epiphany-browser
+
