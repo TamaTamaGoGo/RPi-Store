@@ -1,19 +1,19 @@
-ソフトウェア名,説明,詳細,Web,32bit,64bit,ダウンロードソースファイル
-apache2,Webサーバー,Apache2 Web サーバー。.htaccessファイルを使用する事が出来ます。Certbotを使用することでSSLに対応させることができます。,https://httpd.apache.org/,TRUE,TRUE,apache2
-fonts-noto,No More Tofu Font,もし豆腐文字が見えるようであったら、直ぐにこのフォントをインストールしてください！,,TRUE,TRUE,fonts-noto
-wine,.exeファイルを実行,RaspberryPiで.exeファイルを実行できるようにします！,https://www.winehq.org/,TRUE,TRUE,wine-windows
-winetricks,Wineソフトウェアのツール,このツールはWineへのツールで、フォントやアプリケーションをインストールすることができます。RPi-Toolでは、aptのリポジトリが古い為、オープンソースからインストールします。,https://github.com/Winetricks/winetricks,TRUE,TRUE,wine-tricks
-scratch3,簡単なブロックプログラミング,MITによって作られました.ブロックで簡単にプログラムを作る事が出来ますが、凄いプログラムまで作る事が出来ます！!,https://scratch.mit.edu,TRUE,TRUE,scratch3
-certbot,分でWebをSSL対応させるツール,Apache2にも対応。３か月のSSLですが、いつでも作り直す事が出来ます！,,TRUE,TRUE,certbot
-php-7.3,PHPに対応させるツール,もしあなたがWebサーバーをインストールしたならば、必ずこのツールをいれてください！,,TRUE,TRUE,php-7.3
-fcitx-mozc,日本語入力メゾット,もしあなたが日本人であるなら、日本語を入力するにはこのメゾットをインストールしてください,,TRUE,TRUE,fcitx-mozc
-scratch,ブロックプログラミングScratchの中の最初のバージョン,もしあなたが遠隔センサーをScratchで使用したいなら、このバージョンを使用してください。,,TRUE,TRUE,scratch
-scratch2mcpi,Scratchでプログラムし、Minecraft Piでプログラムを実行！,Minecraft Graphics Turtle はプログラムで凄い建物まで作れます！,https://scratch2mcpi.github.io,TRUE,FALSE,scratch2mcpi
-rpi-imager,Official Image Flasher,Its similar to BanelaEtcher but you can use on RaspberryPi too!,https://raspberrypi.org/,TRUE,TRUE,rpi-imager
-squashfs-tools,たくさんの方法でファイルを圧縮することができます!,gzip、lzma、lzo、lz4、xz、zstdの方法で圧縮することができます。　圧縮のアルゴリズムを設定することもできます。,,TRUE,TRUE,squashfs-tools
-miniupnpc,たった１つのコマンドでポート開放を!,(upnpc -a [開放したいipアドレス] [開放したいポート] [開放したいポート] [tcp/ucp]) のコマンドを実行することでポート開放できます!,,TRUE,TRUE,miniupnpc
-java,最も有名なプログラミング言語,私達は推奨するJavaのバージョンをインストールします。(java -jar [your jar file])を実行することで、Javaファイルを実行することができます。,https://www.oracle.com/,TRUE,TRUE,java-recommend
-Minecraft Spigot Server,有名なMinecraftマルチサーバー,SpigotはSpigotのプラグインを使用することができます！ あなたは友達とサーバーを使用してマルチプレイができます。,https://spigotmc.org,TRUE,TRUE,minecraft-spigot-server
-firefox-esr,軽量ウェブブラウザー,あなたのアカウントで同期することができます！,https://www.mozilla.org/,TRUE,TRUE,firefox-esr
-epiphany-browser,最も軽いウェブブラウザー,Midori程軽量なブラウザーです。 あなたは通常のブラウザーのスピードを忘れるでしょう。,,TRUE,TRUE,epiphany-browser
+ソフトウェア名,説明,詳細,Web,32bit,64bit,ダウンロードソースファイル,インストールメゾット
+apache2,Webサーバー,Apache2 Web サーバー。.htaccessファイルを使用する事が出来ます。Certbotを使用することでSSLに対応させることができます。,https://httpd.apache.org/,TRUE,TRUE,apache2,apt
+fonts-noto,No More Tofu Font,もし豆腐文字が見えるようであったら、直ぐにこのフォントをインストールしてください！,,TRUE,TRUE,fonts-noto,apt
+wine,.exeファイルを実行,RaspberryPiで.exeファイルを実行できるようにします！,https://www.winehq.org/,TRUE,TRUE,wine,apt
+winetricks,Wineソフトウェアのツール,このツールはWineへのツールで、フォントやアプリケーションをインストールすることができます。RPi-Toolでは、aptのリポジトリが古い為、オープンソースからインストールします。,https://github.com/Winetricks/winetricks,TRUE,TRUE,wine-tricks,basj
+scratch3,簡単なブロックプログラミング,MITによって作られました.ブロックで簡単にプログラムを作る事が出来ますが、凄いプログラムまで作る事が出来ます！!,https://scratch.mit.edu,TRUE,TRUE,scratch3,apt
+certbot,分でWebをSSL対応させるツール,Apache2にも対応。３か月のSSLですが、いつでも作り直す事が出来ます！,,TRUE,TRUE,certbot,apt
+php-7.3,PHPに対応させるツール,もしあなたがWebサーバーをインストールしたならば、必ずこのツールをいれてください！,,TRUE,TRUE,php-7.3,apt
+fcitx-mozc,日本語入力メゾット,もしあなたが日本人であるなら、日本語を入力するにはこのメゾットをインストールしてください,,TRUE,TRUE,fcitx-mozc,apt
+scratch,ブロックプログラミングScratchの中の最初のバージョン,もしあなたが遠隔センサーをScratchで使用したいなら、このバージョンを使用してください。,,TRUE,TRUE,scratch,apt
+scratch2mcpi,Scratchでプログラムし、Minecraft Piでプログラムを実行！,Minecraft Graphics Turtle はプログラムで凄い建物まで作れます！,https://scratch2mcpi.github.io,TRUE,FALSE,scratch2mcpi,apt
+rpi-imager,Official Image Flasher,Its similar to BanelaEtcher but you can use on RaspberryPi too!,https://raspberrypi.org/,TRUE,TRUE,rpi-imager,apt
+squashfs-tools,たくさんの方法でファイルを圧縮することができます!,gzip、lzma、lzo、lz4、xz、zstdの方法で圧縮することができます。　圧縮のアルゴリズムを設定することもできます。,,TRUE,TRUE,squashfs-tools,apt
+miniupnpc,たった１つのコマンドでポート開放を!,(upnpc -a [開放したいipアドレス] [開放したいポート] [開放したいポート] [tcp/ucp]) のコマンドを実行することでポート開放できます!,,TRUE,TRUE,miniupnpc,apt
+java,最も有名なプログラミング言語,私達は推奨するJavaのバージョンをインストールします。(java -jar [your jar file])を実行することで、Javaファイルを実行することができます。,https://www.oracle.com/,TRUE,TRUE,java-recommend,bash
+Minecraft Spigot Server,有名なMinecraftマルチサーバー,SpigotはSpigotのプラグインを使用することができます！ あなたは友達とサーバーを使用してマルチプレイができます。,https://spigotmc.org,TRUE,TRUE,minecraft-spigot-server,bash
+firefox-esr,軽量ウェブブラウザー,あなたのアカウントで同期することができます！,https://www.mozilla.org/,TRUE,TRUE,firefox-esr,apt
+epiphany-browser,最も軽いウェブブラウザー,Midori程軽量なブラウザーです。 あなたは通常のブラウザーのスピードを忘れるでしょう。,,TRUE,TRUE,epiphany-browser,apt
 
