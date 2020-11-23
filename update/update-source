@@ -9,5 +9,9 @@ echo -e "\033[1;32mDone\033[0;39m"
 echo -e -n "\033[1;37mDownloading source file ... \033[0;39m"
 cd source
 nowdir=$(pwd)
-screen -dmS update-worksub "cd ${nowdir} && wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-en.csv && wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-jp.csv"
+echo -e -n "\033[1;37mDownloading source file ... Downloading ENGLISH ... \033[0;39m"
+wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-en.csv 1>/dev/null
+echo -e -n "\033[1;37mDownloading source file ... Downloading JAPANESE ... \033[0;39m"
+wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-jp.csv 1>/dev/null
+echo -e "\033[1;37mDownloading source file ... \033[0;39m\033[1;32mDone\033[0;39m"
 echo -e "\033[7;32mDone\033[0;39m"
