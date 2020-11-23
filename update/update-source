@@ -1,11 +1,13 @@
 #!/bin/bash
 
-echo -e "\033[1;37mDelete source directory\033[0;39m"
+echo -e -n "\033[1;37mDelete source directory ...\033[0;39m"
 rm -rf source
-echo -e "\033[1;37mMaking source directory\033[0;39m"
+echo -e "\033[1;32mDone\033[0;39m"
+echo -e -n "\033[1;37mMaking source directory\033[0;39m"
 mkdir source
+echo -e "\033[1;32mDone\033[0;39m"
 echo -e "\033[1;37mDownloading source file\033[0;39m"
 cd source
 wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-en.csv
 wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/source/app-jp.csv
-echo -e "\033[7;32mFinish\033[0;39m"
+echo -e "\033[7;32mDone\033[0;39m"
