@@ -13,6 +13,9 @@ Install application with apt, git, pip and etc!
  Easy to install Recommend software.
 
  Automatically add repository (manually too)
+ 
+ To see all, run this command
+ ``./READCSV app/sourcelist.csv view``
 
 ### Setting
 Set Power and Act led turn off, and etc! 
