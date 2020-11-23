@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while IFS=, read -r softname discribe detail webpage thirtytwobit sixtyfourbit downloadsource
+do
+  echo -e "\033[1;36m$softname\033[0;39m - \033[1;37m$discribe\033[0;39m $detail \033[4;37m$webpage\033[0;39m 32bit->\033[1;37m$thirtytwobit\033[0;39m 64bit->\033[1;37m$sixtyfourbit\033[0;39m \033[4;37m$downloadsource\033[0;39m"
+done < $1
