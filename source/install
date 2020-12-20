@@ -15,4 +15,12 @@ echo -e -n "\033[1;37mInstalling $1 ... \033[0;39m"
 packagetype=$(./READCSV source/app-${viewlang}.csv get $1 packagetype)
 if [ $packagetype == apt ]; then
     packagename=$(./READCSV source/app-${viewlang}.csv get $1 package)
+    sudo apt install -y $(packagename) &>/dev/null
+    echo -e “\nSuccessfully $1 installed”
+fi
+else
+    wget -O tempinstallscript link &>/dev/null
+    sudo chmod 777 tempinstallscript
+    ./tempinstallscript &>/dev/null
+    echo -e “\nSuccessfully $1 installed”
 fi
