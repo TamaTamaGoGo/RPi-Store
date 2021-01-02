@@ -1,1 +1,8 @@
 #!/bin/bash
+
+function getday(){
+  # Get year/month/day
+  year=$(date '%Y')
+  month=$(date '+%m')
+  day=$(data '%d')
+}
