@@ -17,10 +17,10 @@ if [ $packagetype == apt ]; then
     packagename=$(./READCSV source/app-${viewlang}.csv get $1 package)
     sudo apt install -y $(packagename) &>/dev/null
     echo -e “\nSuccessfully $1 installed”
-fi
 else
     wget -O tempinstallscript link &>/dev/null
-    sudo chmod 777 tempinstallscript
+    sudo chmod +x tempinstallscript
     ./tempinstallscript &>/dev/null
+    return=$?
     echo -e “\nSuccessfully $1 installed”
 fi
