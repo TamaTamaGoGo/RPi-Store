@@ -1,0 +1,5 @@
+#!/bin/bash
+feedbackid=872ab7c37b
+url="https://m.kuku.lu/f.php"
+data=$1
+curl -F 'h=$(feedbackid)'  -F 'post2=post2_val' $url 
