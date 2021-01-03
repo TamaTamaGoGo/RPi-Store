@@ -20,7 +20,7 @@ function getmotd(){
   # Update source
   rm -rf ${dir}motdsource
   wget row~~~
-  
+
 }
 
 getday
