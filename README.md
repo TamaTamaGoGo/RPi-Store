@@ -15,7 +15,7 @@ Install application with apt, git, pip and etc!
  Automatically add repository (manually too)
  
  To see all, run this command
- ``sudo chmod +x READCSV && ./READCSV source/app-en.csv``
+     sudo chmod +x READCSV && ./READCSV source/app-en.csv
 
 ### Setting
 Set Power and Act led turn off, and etc! 
@@ -23,4 +23,4 @@ Set Power and Act led turn off, and etc!
 ## Install
 Simply install as
 
-`wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/install/install && sudo chmod +x install && ./install`
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/install/install && sudo chmod +x install && ./install
