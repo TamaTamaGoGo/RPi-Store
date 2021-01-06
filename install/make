@@ -4,8 +4,27 @@ function infobanner(){
   echo " [  INFO   ] $1"
 }
 
+function spin()
+{
+  spinner="\|//-\|//-"
+  while :
+  do
+    for i in `seq 0 7`
+    do
+      echo -n " [ ${spinner:$i:1} ] $view"
+      echo -en "\010"
+      sleep 1
+    done
+  done
+}
+
 function runbanner(){
-  spin $1
+  view="$1"
+  spin &
+  SPIN_PID=$!
+  $2 &>/dev/null
+  view="$3"
+  kill -9 $SPIN_PID
 }
 
 function commandcheck(){
@@ -22,6 +41,11 @@ function commandcheck(){
     commandcheck "$checkcommad"
   fi
 }
+
+# Update
+sudo true
+runnbanner "Updating..." "sudo apt update -y" "Updated    "
+runnbanner "Full-Updating.." "sudo apt full-upgrade -y" "Full-updated!    "
 
 # This is process to add command rpi-tools
 echo ${PATH}
