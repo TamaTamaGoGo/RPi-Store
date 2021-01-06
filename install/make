@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Checking that 'rpi-tools' command is not exist"
-if [ 
+if [ -v $(which rpi-tools) ]; then
+fi
 
 # This is process to add command rpi-tools
 echo ${PATH}
