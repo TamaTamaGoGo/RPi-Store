@@ -2,6 +2,11 @@
 
 function infobanner(){
   echo " [  INFO   ] $1"
+}
+
+function runbanner(){
+  spin $1
+}
 
 function commandcheck(){
   infobanner "Checking that '$1' command is not exist"
@@ -12,7 +17,7 @@ function commandcheck(){
     commandexist=true
     infobanner "$1 is already exist!"
     infobanner "You need to set command to other!"
-    echo -n "Type other command instead"
+    echo -n "Type other command instead: "
     read checkcommand
     commandcheck "$checkcommad"
   fi
@@ -24,4 +29,4 @@ echo "We are about to doing to /usr/bin"
 
 # Process start
 cd /usr/bin
-mkdir -p "rpi-tools"
+mkdir -p "setcommand"
