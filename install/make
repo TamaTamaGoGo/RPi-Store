@@ -53,4 +53,5 @@ echo "We are about to doing to /usr/bin"
 
 # Process start
 cd /usr/bin
-mkdir -p "setcommand"
+touch "$setcommand"
+
