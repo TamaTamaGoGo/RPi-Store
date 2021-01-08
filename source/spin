@@ -26,7 +26,7 @@ SPIN_PID=$!
 # Kill the spinner on any signal, including our own exit.
 trap "kill -9 $SPIN_PID" `seq 0 15`
 
-# http://slowwly.robertomurray.co.uk/ is a useful 
+# http://slowwly.robertomurray.co.uk/ is a useful
 # webservice - it is deliberately slow!
 curl -L http://slowwly.robertomurray.co.uk/delay/15000/url/https://www.shellscript.sh/tips/spinner/test.txt
 

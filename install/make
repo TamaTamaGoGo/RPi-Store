@@ -54,4 +54,3 @@ echo "We are about to doing to /usr/bin"
 # Process start
 cd /usr/bin
 touch "$setcommand"
-

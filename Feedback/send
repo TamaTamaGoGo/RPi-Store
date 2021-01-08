@@ -2,4 +2,4 @@
 feedbackid=872ab7c37b
 url="https://m.kuku.lu/f.php?h=$(feedbackid)"
 data=$1
-curl -F 'data=$(data)' $url 
+curl -F 'data=$(data)' $url
