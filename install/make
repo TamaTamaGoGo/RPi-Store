@@ -24,7 +24,7 @@ function runbanner(){
   SPIN_PID=$!
   $2 &>/dev/null
   view="$3"
-  kill -9 $SPIN_PID
+  kill $SPIN_PID
 }
 
 function commandcheck(){
@@ -51,6 +51,8 @@ runnbanner "Full-Updating.." "sudo apt full-upgrade -y" "Full-updated!    "
 echo ${PATH}
 echo "We are about to doing to /usr/bin"
 
+commandcheck rpi-tools
+
 # Process start
-cd /usr/bin
-touch "$setcommand"
+sudo cp -v /install/script/rpi-tools /usr/bin/rpi-tools
+sudo chmod +x /usr/bin/rpi-tools
