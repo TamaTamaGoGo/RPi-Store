@@ -1,9 +1,16 @@
 #!/bin/bash
 
+wget -O dlber.txt https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/latest/check/latestver.txt
 wget -O latestver.txt https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/latest/check/latestver.txt
+
 
 sudo chmod +x ./install/status
 ./install/status
+
+if [ $(cat latestver.txt) != $(cat ./dlver.txt) ]; then
+  ./update
+  exit
+fi
 
 sudo apt install -y software-properties-common
 sudo add-apt-repository ppa:webupd8team/y-ppa-manager
