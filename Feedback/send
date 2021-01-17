@@ -2,4 +2,4 @@
 feedbackid=872ab7c37b
 url="https://m.kuku.lu/f.php?h=872ab7c37b&action=sendMail"
 data=$1
-curl -F $url
+echo "foo\nbar\nbaz" | curl --data-binary @- -F $url
