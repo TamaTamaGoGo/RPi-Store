@@ -54,11 +54,11 @@ echo "We are about to doing to /usr/bin"
 commandcheck rpi-tools
 
 # Process start
-sudo cp -v install/script/rpi-tools /usr/bin/${setcommand}
+sudo cp -v ./install/script/rpi-tools /usr/bin/${setcommand}
 sudo chmod +x /usr/bin/${setcommand}
 
 commandcheck rpi-apps
 
 # Process start
-sudo cp -v install/script/rpi-apps /usr/bin/${setcommand}
+sudo cp -v ./install/script/rpi-apps /usr/bin/${setcommand}
 sudo chmod +x /usr/bin/${setcommand}
