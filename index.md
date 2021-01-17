@@ -9,5 +9,4 @@ Of cource, **FREE**.
 
 RPi-Tools is **open source**.
 
-  
-  
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/install/instant && sudo chmod +x instant && ./instant
