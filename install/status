@@ -24,4 +24,4 @@ infobanner "Machine status"
 uname -a
 echo ""
 infobanner "RPi-Tools make file version"
-cat ./install/source/makever.txt
+cat ./install/script/makever.txt
