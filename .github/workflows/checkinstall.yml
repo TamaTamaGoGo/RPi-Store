@@ -35,4 +35,4 @@ jobs:
           sudo chmod +x install/instant
           ./install/instant
       - name: Check
-          ./check/allcheck
+        run:  ./check/allcheck
