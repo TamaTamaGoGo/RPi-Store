@@ -20,4 +20,16 @@ function skipbanner(){
   echo -e " [ SKIP ] $1"
 }
 
+if [ -v $(which rpi-tools) ]; then
+  nobanner "rpi-tools command is not available"
+else
+  okbanner "rpi-tools command is available"
+fi
+
+if [ -v $(which rpi-apps) ]; then
+  nobanner "rpi-apps command is not available"
+else
+  okbanner "rpi-apps command is available"
+fi
+
 skipbanner "No script"
