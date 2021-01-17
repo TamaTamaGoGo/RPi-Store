@@ -44,8 +44,8 @@ function commandcheck(){
 
 # Update
 sudo true
-runbanner "Updating..." "sudo apt update -y" "Updated    "
-runbanner "Full-Updating.." "sudo apt full-upgrade -y" "Full-updated!    "
+# runbanner "Updating..." "sudo apt update -y" "Updated    "
+# runbanner "Full-Updating.." "sudo apt full-upgrade -y" "Full-updated!    "
 
 # This is process to add command rpi-tools
 echo ${PATH}
