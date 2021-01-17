@@ -1,0 +1,23 @@
+#!/bin/bash
+
+function infobanner(){
+  echo -e " [ INFO ] $1"
+}
+
+function okbanner(){
+  echo -e "\r [  \033[0;32mOK\033[0;39m  ] $1"
+}
+
+function nobanner(){
+  echo -e "\r [  \033[0;31mNO\033[0;39m  ] $1"
+}
+
+function failbanner(){
+  echo -e "\r [ \033[0;31mFAIL\033[0;39m ] $1"
+}
+
+function skipbanner(){
+  echo -e " [ SKIP ] $1"
+}
+
+skipbanner "No script"
