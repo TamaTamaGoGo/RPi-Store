@@ -19,9 +19,10 @@ Install application with apt, git, pip and etc!
 Easy to install Recommend software.
 
 Automatically add repository (manually too)
-
+ 
 To see all, run this command
-`sudo chmod +x READCSV && ./READCSV source/app-en.csv`
+    
+    sudo chmod +x READCSV && ./READCSV source/app-en.csv
 
 ### Setting
 
@@ -31,4 +32,4 @@ Set Power and Act led turn off, and etc!
 
 Simply install as
 
-`wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/dev/instant && sudo chmod +x instant && ./instant`
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/install/install && sudo chmod +x install && ./install
