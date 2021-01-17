@@ -1,5 +1,7 @@
 #!/bin/bash
 
+wget -O latestver.txt https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/latest/check/latestver.txt
+
 sudo chmod +x ./install/status
 ./install/status
 
