@@ -6,5 +6,7 @@ sudo apt update
 sudo apt install -y yad
 dir=$(pwd)
 
-$(pwd)/install/make
-$(pwd)/check/allcheck
+sudo chmod +x ./install/make
+sudo chmod +x ./check/allcheck
+./install/make
+./check/allcheck
