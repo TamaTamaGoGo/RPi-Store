@@ -1,5 +1,5 @@
 #!/bin/bash
 feedbackid=872ab7c37b
-url="https://m.kuku.lu/f.php?h=$(feedbackid)"
+url="https://m.kuku.lu/f.php?h=872ab7c37b&action=sendMail"
 data=$1
-curl -F 'data=$(data)' $url
+curl -F $url
