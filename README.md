@@ -1,6 +1,6 @@
 # RPi-Tools [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/badge/main)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/overview/main)
 
-[![badge](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/img/icon/RPi-Store.png?raw=true)](https://github.com/TamaTamaGoGo/RPi-Tools/)
+[![badge](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/img/icon/RPi-Store.pdf?raw=true)](https://github.com/TamaTamaGoGo/RPi-Tools/)
 
 ## Introduce
 
