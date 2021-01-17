@@ -19,10 +19,9 @@ Install application with apt, git, pip and etc!
 Easy to install Recommend software.
 
 Automatically add repository (manually too)
- 
-To see all, run this command
-    
-    sudo chmod +x READCSV && ./READCSV source/app-en.csv
+
+To see all, run this command   
+ sudo chmod +x READCSV && ./READCSV source/app-en.csv
 
 ### Setting
 
