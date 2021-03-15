@@ -2,15 +2,15 @@
 
 function dl(){
   link = "https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/latest/install/source/$1"
-  echo -en '\e[1;37;41mDownloading $1...\e[0m'
-  echo -en '\r\e[1;37;41mDownloading $1... URL:$link\e[0m'
-  echo -e '\e[2;37;41m'
+  echo -en '\e[1;37;49mDownloading $1...\e[0m'
+  echo -en '\r\e[1;37;49mDownloading $1... URL:$link\e[0m'
+  echo -e '\e[2;37;49m'
   wget -O $1 $link
-  echo -e '\e[1;37;41mDownloaded $1\e[0m'
-  echo -en '\e[1;37;41mInstalling $1...\e[0m'
-  echo -e '\e[2;37;41m'
-  $1
-  echo -e '\e[1;37;41mInstalled $1\e[0m'
+  echo -e '\e[1;37;49mDownloaded $1\e[0m'
+  echo -en '\e[1;37;49mInstalling $1...\e[0m'
+  echo -e '\e[2;37;49m'
+  ./$1
+  echo -e '\e[1;37;49mInstalled $1\e[0m'
 }
 
 # First process
