@@ -1,4 +1,4 @@
-# RPi-Tools [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/badge/main)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/overview/main) ![Build Check](https://github.com/TamaTamaGoGo/RPi-Tools/workflows/Build%20Check/badge.svg?branch=latest)
+# RPi-Tools [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/badge/main)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/overview/main) ![Build Check](https://github.com/TamaTamaGoGo/RPi-Tools/workflows/Build%20Check/badge.svg?branch=latest) [![DL Script Test Run](https://github.com/TamaTamaGoGo/RPi-Tools/actions/workflows/CheckDL.yml/badge.svg)](https://github.com/TamaTamaGoGo/RPi-Tools/actions/workflows/CheckDL.yml)
 
 [![badge](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/img/icon/RPi-Store.svg?raw=true)](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/apps/manual/RPi-Tools.md)
 
