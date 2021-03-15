@@ -8,4 +8,3 @@ def dl(){
   echo -en "Installing $1..."
   echo -e "\rInstalled $1"
 }
-
