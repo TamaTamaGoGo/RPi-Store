@@ -2,6 +2,8 @@
 
 def dl(){
   echo -en "Downloading $1..."
+  echo -en "\rDownloading $1... URL:$2"
   wget -O $1 $2 &>/dev/null
-  echo -e ""
+  echo -e "Downloaded $1"
+  echo -e "Installing $1..."
 }
