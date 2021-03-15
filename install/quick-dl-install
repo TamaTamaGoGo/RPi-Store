@@ -1,6 +1,6 @@
 #!/bin/bash
 
-def dl(){
+function dl(){
   link = "https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/latest/install/source/$1"
   echo -en '\e[1;37;41mDownloading $1...\e[0m'
   echo -en '\r\e[1;37;41mDownloading $1... URL:$link\e[0m'
