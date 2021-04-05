@@ -7,7 +7,7 @@ function ass(){
 
 # Greet to user
 ass "Hi!"
-ass  "We'll install automatically as possible"
+ass "We'll install automatically as possible"
 ass "Wait a momment..."
 ass "We'll install the package's.\nUsually it takes a minutes but by the software condition, it may takes a half our."
 
@@ -18,4 +18,8 @@ sudo apt autoremove -y
 sudo apt install -y python3-tk python3.7
 
 # Talk to user
-ass
+ass "Finished."
+ass "We use rpi-tools command to use rpi-tools"
+if [ -v $(which rpi-tools) ]; then
+ sudo touch /usr/bin/rpi-tools
+fi
