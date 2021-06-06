@@ -1,5 +1,5 @@
 # RPi-Store 
-[![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-store/badge/main)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-store/overview/main)
+**Review** [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-store/badge/main)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-store/overview/main)
 
 [![badge](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/img/icon/RPi-Store.svg?raw=true)](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/apps/manual/RPi-Tools.md)
 
