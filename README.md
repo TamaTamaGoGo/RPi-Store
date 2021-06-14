@@ -1,5 +1,5 @@
 # RPi-Store 
-**Review** [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-store/badge/main)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-store/overview/main)
+**Review** [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools/badge)](https://www.codefactor.io/repository/github/tamatamagogo/rpi-tools)
 
 [![badge](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/img/icon/RPi-Store.svg?raw=true)](https://github.com/TamaTamaGoGo/RPi-Tools/blob/latest/apps/manual/RPi-Tools.md)
 
@@ -8,4 +8,4 @@
 
 Simply install as
 
-    wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Store/main/install/install && sudo chmod +x install && ./install
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/RPi-Tools/main/install/install && sudo chmod +x install && ./install
